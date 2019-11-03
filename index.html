@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KODIX</title>
+  <meta name="description" content="Тестовое задание компании KODIX">
+  <meta name="keywords" content="Автобизнес, цифровые решения">
+  <meta name="author" content="Олег">
+  <link rel="stylesheet" href="style.5f6eb559719b6ef652a4.css?1a704cb08306f66d9436">
+</head>
+<body style="visibility: hidden;">
+
+	<div class="page">
+
+		<header class="header page__header">
+			<img src='duck.png' alt="логотип компании" class="logo header__logo">
+		</header>
+
+		<div class="content page__content">
+
+			<h1 class="title content__title">&iexcl;Ay caramba!</h1>
+
+			<div class="main-form content__main-form">
+				<div class="main-form__block main-form__block_mobile">
+					<p class="label main-form__label invisible">Название</p>
+					<input class="input" id="title" placeholder="Название">
+				</div>
+
+				<div class="main-form__block main-form__block_mobile">
+					<p class="label main-form__label invisible">Год</p>
+					<input class="input" id="year" placeholder="Год" type="number">
+				</div>
+
+				<div class="main-form__block main-form__block_mobile">
+					<p class="label main-form__label invisible">Цена</p>
+					<input class="input" id="price" placeholder="Цена" type="number">
+				</div>
+
+				<div class="main-form__block main-form__block_big">
+					<p class="label main-form__label invisible label_mobile">Описание</p>
+					<input class="input" id="description" placeholder="Описание">
+				</div>
+				
+				<div class="main-form__block main-form__block_mobile" id="colors">
+					<p class="label main-form__label label_mobile">Цвет</p>
+					<span data-color="white" class="color-mark color-mark_white main-form__color-mark"></span>
+					<span data-color="black" class="color-mark color-mark_black main-form__color-mark"></span>
+					<span data-color="grey" class="color-mark color-mark_grey main-form__color-mark"></span>
+					<span data-color="red" class="color-mark color-mark_red main-form__color-mark"></span>
+					<span data-color="green" class="color-mark color-mark_green main-form__color-mark"></span>
+				</div>
+
+				<div class="main-form__container">
+					<div class="main-form__block main-form__block_mobile-half">
+						<div class="select" id="selectstatus">
+							<p id="status">Статус</p>
+							<ul class="select__list hidden" id="selectlist">
+								<li>В наличии</li>
+								<li>Ожидается</li>
+								<li>Нет в наличии</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="main-form__block main-form__block_mobile-half">
+						<button class="submit">Отправить</button>
+
+						<div class="warning hidden">
+							<p class="warning__text">Убедитесь, что все поля заполнены, выбраны цвет и статус автомобиля</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="success hidden">
+					<p class="success__text">Новая запись успешно добавлена</p>
+				</div>
+				
+			</div>
+
+			<h2 class="subtitle">Автомобили в наличии</h2>
+
+			<div class="table-header">
+				<div class="card__info card__info_header">
+					<div class="card__text">
+						<span class="table-title">Название</span>
+					</div>
+					<div class="card__props card__props_header">
+						<div class="card__not-text card__not-text_header">
+							<span class="table-title table_year" data-sort="year">Год</span>
+							<span class="table-title">Цвет</span>
+						</div>
+						<span class="table-title table_status">Статус</span>
+					</div>
+				</div>
+				<div class="card__additional card__additional_header">
+					<span class="table-title table_price" data-sort="price">Цена</span>
+				</div>
+			</div>
+
+			<div class="cards-container">
+				 <!-- <div class="card">
+					<div class="card__info">
+						<div class="card__text">
+							<p class="card__title">1.6 MT Ambiente 85 л.с. МКПП</p>
+							<p class="card__description">+ доп. опция Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+						</div>
+						<div class="card__props">
+							<div class="card__not-text">
+								<p class="card__year">2012</p>
+								<span class="color-mark color-mark_black card__color-mark"></span>
+							</div>
+							<p class="card__status">Ожидается</p>
+						</div>
+					</div>
+					<div class="card__additional">
+						<p class="card__price">1 689 000 руб.</p>
+						<button class="card__button">Удалить</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__info">
+						<div class="card__text">
+							<p class="card__title">1.6 MT Ambiente 85 л.с. МКПП</p>
+							<p class="card__description"></p>
+						</div>
+						<div class="card__props">
+							<div class="card__not-text">
+								<p class="card__year">2012</p>
+								<span class="color-mark color-mark_white card__color-mark"></span>
+							</div>
+							<p class="card__status">В наличии</p>
+						</div>
+					</div>
+					<div class="card__additional">
+						<p class="card__price">1 689 000 руб.</p>
+						<button class="card__button">Удалить</button>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__info">
+						<div class="card__text">
+							<p class="card__title">1.6 MT Ambiente 85 л.с. МКПП</p>
+							<p class="card__description">+ доп. опция Радио-навигационная система Amundasen 2DIN, CD, MP3</p>
+						</div>
+						<div class="card__props">
+							<div class="card__not-text">
+								<p class="card__year">2012</p>
+								<span class="color-mark color-mark_green card__color-mark"></span>
+							</div>
+							<p class="card__status">Нет в наличии</p>
+						</div>
+					</div>
+					<div class="card__additional">
+						<p class="card__price">1 689 000 руб.</p>
+						<button class="card__button">Удалить</button>
+					</div>
+				</div>  -->
+			</div>
+
+
+		</div>
+
+		<footer class="footer">
+			<p class="footer__text">&copy; 2015 CAPTAIN QUACK</p>
+			<p class="footer__text">Десница тысячелетия и моллюск!</p>
+		</footer>
+
+	</div>
+
+
+	<script src="main.12cb69cd610f2186883d.js?1a704cb08306f66d9436"></script>
+</body>
+</html>
