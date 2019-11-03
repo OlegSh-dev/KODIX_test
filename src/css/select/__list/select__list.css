@@ -1,0 +1,25 @@
+.select__list {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+    box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0 5px;
+	color: var(--grey-font);
+	border: 1px solid var(--grey-color);
+	border-top: 2px solid var(--dark-accent-color);
+	background-color: white;
+	z-index: 1;
+}
+
+.select__list li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.select__list li:hover {
+	color: black;
+}

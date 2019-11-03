@@ -1,0 +1,5 @@
+@import url('./__logo/header__logo.css');
+
+.header {
+	background-color: var(--dark-accent-color);
+}

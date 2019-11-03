@@ -1,0 +1,14 @@
+@import url('./__title/content__title.css');
+@import url('./__main-form/content__main-form.css');
+
+.content {
+	padding: 70px 10px;
+	max-width: 960px;
+	min-height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+	.content {
+		padding: 40px 10px;
+	}
+}

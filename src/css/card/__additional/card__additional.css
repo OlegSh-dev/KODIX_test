@@ -1,0 +1,23 @@
+.card__additional {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px 5px 10px 0;
+	width: 31%;
+	text-align: end;
+}
+
+@media screen and (max-width: 720px) {
+	.card__additional {
+		flex-direction: column;
+		text-align: unset;
+		width: unset;
+		justify-content: space-between;
+		position: absolute;
+		top: 20px;
+		bottom: 20px;
+		right: 10px;
+		padding-right: 0;
+		padding-bottom: 5px;
+	}
+}

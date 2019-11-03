@@ -1,0 +1,8 @@
+.footer__text {
+	color: var(--grey-color);
+	text-align: center;
+	font-family: var(--main-font);
+	font-weight: 300;
+	font-size: 11px;
+	margin: 0;
+}

@@ -1,0 +1,14 @@
+.card__text {
+	max-width: 58%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+@media screen and (max-width: 720px) {
+	.card__text {
+		width: 100%;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,26 @@
+.main-form__block {
+	position: relative;
+	display: inline-block;
+	width: 31%;
+	margin-right: 2.9%;
+	margin-bottom: 20px;
+}
+
+.main-form__block:nth-of-type(3) {
+	margin-right: 0;
+}
+
+.main-form__block:last-of-type {
+	margin-right: 0;
+}
+
+.main-form__block_big {
+	width: 99.6%;
+	margin-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+	.main-form__block_big {
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,23 @@
+.subtitle {
+	text-transform: uppercase;
+	font-family: var(--main-font);
+	color: var(--dark-accent-color);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.subtitle::before {
+	content: '';
+	display: inline-block;
+	width: 3px;
+	background-color: #8b9497;
+	height: 10px;
+	margin-right: 10px;
+	height: 15px;
+}
+
+@media screen and (max-width: 720px) {
+	.subtitle {
+		display: none;
+	}
+}

@@ -1,0 +1,10 @@
+.card__title {
+	display: inline-block;
+	width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+	.card__title {
+		width: 47%;
+	}
+}

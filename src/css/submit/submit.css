@@ -1,0 +1,44 @@
+.submit {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 5px;
+	outline: none;
+	text-transform: uppercase;
+	color: white;
+	font-family: var(--main-font);
+	font-weight: 900;
+	background-color: var(--accent-color);
+	background-image: url('../../image/arrow_small_right.png');
+	background-repeat: no-repeat;
+	background-position: 75% 46%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background: url('../../image/arrow_small_right.png'), linear-gradient(45deg, var(--accent-color), var(--dark-accent-color));
+	background-repeat: no-repeat;
+	background-position: 75% 46%;
+}
+
+.submit:active {
+	background: linear-gradient(45deg, var(--dark-accent-color), var(--dark-accent-color));
+}
+
+.submit:disabled {
+	background: linear-gradient(45deg, var(--grey-color), var(--grey-color));
+}
+
+@media screen and (max-width: 720px) {
+	.submit {
+		background-position: 90% 46%;
+	}
+
+	.submit:hover {
+		background: url('../../image/arrow_small_right.png'), linear-gradient(45deg, var(--accent-color), var(--dark-accent-color));
+		background-repeat: no-repeat;
+		background-position: 90% 46%;
+	}
+}

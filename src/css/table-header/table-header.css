@@ -1,0 +1,34 @@
+.table-header {
+	display: flex;
+	justify-content: flex-start;
+	background-color: var(--accent-color);
+	color: white;
+	padding: 12px;
+    border-radius: 3px;
+    font-family: var(--main-font);
+	font-size: 15px;
+	user-select: none;
+}
+
+.table-header span {
+	display: inline-block;
+}
+
+.table_status {
+	padding-left: calc(45% - 76px);
+}
+
+.table_price {
+	padding-left: calc(41% - 70px);
+	cursor: pointer;
+}
+
+.table_year {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+	.table-header {
+		display: none;
+	}
+}

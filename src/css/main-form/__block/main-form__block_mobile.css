@@ -1,0 +1,14 @@
+@media screen and (max-width:720px) {
+	.main-form__block_mobile {
+		width: 100%;
+		margin: 0;
+	}
+
+	.main-form__block_mobile#colors {
+		margin-bottom: 20px;
+	}
+
+	.main-form__block_mobile-half {
+		width: 46%;
+	}
+}

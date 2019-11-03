@@ -1,0 +1,9 @@
+.content__main-form {
+	margin-bottom: 130px;
+}
+
+@media screen and (max-width: 720px) {
+	.content__main-form {
+		margin-bottom: 40px;
+	}
+}

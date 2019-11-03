@@ -1,0 +1,10 @@
+.main-form__container {
+	display: inline;
+}
+
+@media screen and (max-width: 720px) {
+	.main-form__container {
+		display: flex;
+    	justify-content: space-between;
+	}
+}

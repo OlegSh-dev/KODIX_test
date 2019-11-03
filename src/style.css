@@ -1,0 +1,50 @@
+@import url('./vendor/normalize.css');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic');
+
+@import url('./css/page/page.css');
+@import url('./css/header/header.css');
+@import url('./css/logo/logo.css');
+@import url('./css/content/content.css');
+@import url('./css/title/title.css');
+@import url('./css/main-form/main-form.css');
+@import url('./css/main-form/__container/main-form__container.css');
+@import url('./css/label/label.css');
+@import url('./css/label/label_mobile.css');
+@import url('./css/input/input.css');
+@import url('./css/select/select.css');
+@import url('./css/color-mark/color-mark.css');
+@import url('./css/submit/submit.css');
+@import url('./css/subtitle/subtitle.css');
+@import url('./css/table-header/table-header.css');
+@import url('./css/card/card.css');
+@import url('./css/card/__info/card__info_header.css');
+@import url('./css/card/__props/card__props_header.css');
+@import url('./css/card/__not-text/card__not-text_header.css');
+@import url('./css/card/__additional/card__additional_header.css');
+@import url('./css/footer/footer.css');
+@import url('./css/warning/warning.css');
+@import url('./css/main-form/__block/main-form__block_mobile.css');
+@import url('./css/success/success.css');
+
+@import url('./css/invisible/invisible.css');
+@import url('./css/hidden/hidden.css');
+
+
+
+:root {
+	--dark-accent-color: #282d30;
+	--accent-color: #c4092f;
+	--grey-color: #dcdcdc;
+	--bg-color-card: #f5f6f6;
+	--main-font: 'Roboto', sans-serif;
+	--grey-font: #999999;
+}
+
+::placeholder {
+	color: var(--grey-color);
+}
+
+:placeholder-shown {
+	color: var(--grey-color);
+}

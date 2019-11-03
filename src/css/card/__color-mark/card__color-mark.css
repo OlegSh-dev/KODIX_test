@@ -1,0 +1,11 @@
+.card__color-mark {
+	cursor: default;
+}
+
+@media screen and (max-width: 720px) {
+	.card__color-mark {
+		position: absolute;
+		top: 25px;
+		right: 39%;
+	}
+}

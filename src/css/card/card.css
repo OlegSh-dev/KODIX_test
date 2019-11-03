@@ -1,0 +1,37 @@
+@import url('./__info/card__info.css');
+@import url('./__text/card__text.css');
+@import url('./__props/card__props.css');
+@import url('./__not-text/card__not-text.css');
+@import url('./__additional/card__additional.css');
+@import url('./__title/card__title.css');
+@import url('./__year/card__year.css');
+@import url('./__color-mark/card__color-mark.css');
+@import url('./__status/card__status.css');
+@import url('./__description/card__description.css');
+@import url('./__price/card__price.css');
+@import url('./__button/card__button.css');
+
+.card {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+	background-color: var(--bg-color-card);
+	font-family: var(--main-font);
+	font-weight: 300;
+	color: #323232;
+	border-bottom: 1px solid var(--grey-color);
+}
+
+.card p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 720px) {
+	.card {
+		position: relative;
+		padding: 20px 10px;
+		font-size: 14px;
+	}
+}

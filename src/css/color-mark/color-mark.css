@@ -1,0 +1,34 @@
+.color-mark {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	cursor: pointer;
+	vertical-align: bottom;
+}
+
+.color-mark_white {
+	background-color: white;
+	border: 1px solid var(--grey-color);
+}
+
+.color-mark_black {
+	background-color: black;
+}
+
+.color-mark_grey {
+	background-color: #cbcbcc;
+}
+
+.color-mark_red {
+	background-color: #d74345;
+}
+
+.color-mark_green {
+	background-color: #88c504;
+}
+
+.color-mark_pressed {
+	box-shadow: 0 0 0 3px var(--accent-color);
+}

@@ -1,0 +1,10 @@
+@import url('./__text/footer__text.css');
+
+.footer {
+	background-color: var(--dark-accent-color);
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

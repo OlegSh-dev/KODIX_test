@@ -1,0 +1,10 @@
+.label {
+	color: var(--grey-font);
+	font-size: 12px;
+}
+
+@media screen and (max-width: 720px) {
+	.label {
+		display: none;
+	}
+}

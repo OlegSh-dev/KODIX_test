@@ -1,0 +1,14 @@
+.card__props {
+	width: 41%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+	.card__props {
+		width: 60%;
+    	margin-top: 20px;
+    	justify-content: flex-start;
+	}
+}

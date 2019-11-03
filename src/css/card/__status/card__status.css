@@ -1,0 +1,12 @@
+.card__status {
+	display: inline-block;
+	width: 57%;
+    padding-left: calc(35% - 65px);
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 720px) {
+	.card__status {
+		width: 91%;
+	}
+}
